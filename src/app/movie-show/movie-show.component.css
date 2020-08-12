@@ -1,0 +1,37 @@
+#movieShow {
+  height: 100%;
+}
+
+#jumboMovie {
+  height: 100%;
+  color: rgb(220, 220, 220);
+  background-size: cover;
+}
+
+#movieInfo {
+  width: 40%;
+  margin-left: 5%;
+}
+
+#movieInfo h3 {
+  color: aqua;
+  margin-bottom: 1em;
+}
+
+#duration {
+  border: white solid 1px;
+  padding: 10px;
+  margin-right: 1em;
+}
+
+a {
+  padding: 1.5em 3em;
+  color: rgb(220, 220, 220);
+  background-color: rgba(220, 220, 220, 0);
+  text-shadow: 2px 2px #343a40;
+  transition: backgroung 0.5s;
+}
+
+a:hover {
+  background-color: rgba(220, 220, 220, 0.4);
+}

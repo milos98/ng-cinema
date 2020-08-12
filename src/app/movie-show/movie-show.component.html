@@ -1,0 +1,23 @@
+<div id="movieShow" *ngIf="randomMovie">
+  <div
+    id="jumboMovie"
+    class="row justify-content-between"
+    [ngStyle]="setBackground()"
+  >
+    <div 
+        id="movieInfo" 
+        class="row align-content-center"
+    >
+      <h2 class="col-12 text-capitalize">{{ randomMovie.title }}</h2>
+      <p class="col-12">{{ randomMovie.description }}</p>
+      <h3 class="col-12 text-capitalize">By: {{ randomMovie.director }}</h3>
+      <p class="col-12">
+        <span id="duration">{{ randomMovie.duration }} min</span>
+        {{ randomMovie.genre }}
+      </p>
+    </div>
+    <div class="row align-content-end font-weight-bold">
+      <a routerLink="/movie/{{this.randomMovie._id}}" class="text-decoration-none text-uppercase">read more -></a>
+    </div>
+  </div>
+</div>
