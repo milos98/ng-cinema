@@ -2,7 +2,13 @@
     width: 435px;
     padding: 10px;
     margin-left: 3vw;
-    color: rgb(255, 255, 255)
+    color: rgba(255, 255, 255, 0.5);
+    transition: all linear 0.2s;
+}
+
+.slide:hover {
+  filter: brightness(1.2);
+  color: rgba(255, 255, 255, 1);
 }
 
 .slide > img {
@@ -13,5 +19,6 @@
 }
 
 .slide h2 {
-    margin: 0.1em;
+  max-width: 400px;
+  margin-left: 0.1em;
 }
