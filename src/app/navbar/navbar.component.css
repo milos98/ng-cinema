@@ -64,17 +64,3 @@ a {
     height: 9px;
     opacity: 1;
 }
-
-@media(max-width:991px){
-    nav {
-        max-height: 100vh;
-    }
-    
-    ul {
-        min-height: calc(100vh - 5em);
-    }
-
-    ul li {
-        margin: 2em auto;
-    }
-}
