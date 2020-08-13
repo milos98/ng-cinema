@@ -11,6 +11,7 @@ import { NavbarComponent } from './navbar/navbar.component';
 
 import { SlickCarouselModule } from 'ngx-slick-carousel';
 import { SlickCarouselComponent } from './home/slick-carousel/slick-carousel.component';
+import { SlideComponent } from './home/slick-carousel/slide/slide.component';
 
 @NgModule({
   declarations: [
@@ -19,7 +20,8 @@ import { SlickCarouselComponent } from './home/slick-carousel/slick-carousel.com
     HomeComponent,
     MovieShowComponent,
     NavbarComponent,
-    SlickCarouselComponent
+    SlickCarouselComponent,
+    SlideComponent
   ],
   imports: [
     AppRoutingModule,

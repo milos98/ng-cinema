@@ -1,0 +1,17 @@
+.slide {
+    width: 435px;
+    padding: 10px;
+    margin-left: 3vw;
+    color: rgb(255, 255, 255)
+}
+
+.slide > img {
+    width: 400px;
+    height: 300px;
+    object-fit: cover;
+    object-position: 0 0;
+}
+
+.slide h2 {
+    margin: 0.1em;
+}
