@@ -1,0 +1,16 @@
+<div class="sliders bg-dark">
+  <h1>{{ this.movieCategory.name }}</h1>
+  <ngx-slick-carousel
+    class="carousel"
+    #slickModal="slick-carousel"
+    [config]="slideConfig"
+    (init)="slickInit($event)"
+    (breakpoint)="breakpoint($event)"
+    (afterChange)="afterChange($event)"
+    (beforeChange)="beforeChange($event)"
+  >
+    <div ngxSlickItem *ngFor="let movie of movieCategory.data" class="slide">
+      <app-slide [movieInput]="movie"></app-slide>
+    </div>
+  </ngx-slick-carousel>
+</div>

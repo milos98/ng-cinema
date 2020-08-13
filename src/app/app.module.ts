@@ -10,6 +10,7 @@ import { MovieShowComponent } from './movie-show/movie-show.component';
 import { NavbarComponent } from './navbar/navbar.component';
 
 import { SlickCarouselModule } from 'ngx-slick-carousel';
+import { SlickCarouselComponent } from './home/slick-carousel/slick-carousel.component';
 
 @NgModule({
   declarations: [
@@ -17,7 +18,8 @@ import { SlickCarouselModule } from 'ngx-slick-carousel';
     FooterComponent,
     HomeComponent,
     MovieShowComponent,
-    NavbarComponent
+    NavbarComponent,
+    SlickCarouselComponent
   ],
   imports: [
     AppRoutingModule,
