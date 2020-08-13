@@ -19,8 +19,8 @@ export class SlickCarouselComponent implements OnInit {
                                z-index: 1;
                                width:5%;"
                 >Previous</button>`,
-    nextArrow: `<button type="button" 
-                        class="slick-next" 
+    nextArrow: `<button type="button"
+                        class="slick-next"
                         style="right: 0;
                                z-index: 1;
                                width:5%"
