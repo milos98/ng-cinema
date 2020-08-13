@@ -2,7 +2,6 @@ import { Component, OnInit } from '@angular/core';
 
 import { MovieService } from './../movie.service';
 import { Category } from './../category';
-import { Movie } from './../movie'
 
 @Component({
   selector: 'app-home',
@@ -17,8 +16,8 @@ export class HomeComponent implements OnInit {
   ngOnInit(): void {
     const currentDate = new Date();
     this.movieService.getMovies().subscribe(data => {
-      let available: Category = {name:'Now Showing', data: []};
-      let soon: Category = {name:'Comming Soon', data: []};
+      const available: Category = {name: 'Now Showing', data: []};
+      const soon: Category = {name: 'Comming Soon', data: []};
 
       data.forEach(movie => {
         const movieReleaseDate = new Date(movie.releaseDate);
