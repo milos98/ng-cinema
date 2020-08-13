@@ -1,21 +1,22 @@
 .slide {
-    width: 435px;
-    padding: 10px;
-    margin-left: 3vw;
-    color: rgba(255, 255, 255, 0.5);
-    transition: all linear 0.2s;
+  width: 435px;
+  padding: 10px;
+  margin-left: 3vw;
+  filter: brightness(0.8);
+  color: rgba(255, 255, 255, 0.5);
+  transition: all linear 0.2s;
 }
 
 .slide:hover {
-  filter: brightness(1.2);
+  filter: brightness(1);
   color: rgba(255, 255, 255, 1);
 }
 
 .slide > img {
-    width: 400px;
-    height: 300px;
-    object-fit: cover;
-    object-position: 0 0;
+  width: 400px;
+  height: 300px;
+  object-fit: cover;
+  object-position: 0 0;
 }
 
 .slide h2 {
